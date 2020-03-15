@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19e7945c-0aaa-4f86-b377-eaff1ff9b8fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/NestedTableView_Example.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/xcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NestedTableView/NestedViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NestedTableView/NestedViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASCompositeConstraint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASCompositeConstraint.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraint+Private.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraint.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraintMaker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraintMaker.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASLayoutConstraint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASLayoutConstraint.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASUtilities.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewAttribute.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewAttribute.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewConstraint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewConstraint.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/Masonry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSArray+MASAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSArray+MASAdditions.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSArray+MASShorthandAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/View+MASAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/View+MASAdditions.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/View+MASShorthandAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/ViewController+MASAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/ViewController+MASAdditions.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Masonry/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry-prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry-umbrella.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.modulemap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedBaseViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedBaseViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedCollectionContainerCell.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedCollectionContainerCell.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableContainerCell.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableContainerCell.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableView.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NestedTableView.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/NestedTableView.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NestedTableView.xcodeproj/xcshareddata/xcschemes/NestedTableView-Example.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/NestedTableView.xcodeproj/xcshareddata/xcschemes/NestedTableView-Example.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NestedTableView/DEMOViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/NestedTableView/DEMOViewController.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NestedTableView.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedTableView.podspec" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_DB0FF147-23D8-467D-8D8B-EA81C9162362" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="1C4C1B848F17DBBD9B9468927A2782BC-macOS 10.15 (macosx10.15 10.15.1)-x86_64" />
+  </component>
+  <component name="ProjectId" id="1Z9nXmvCuz8fVjCqD6baquSBTZH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="NestedTableView_Example" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.cidr.execution.build.XcodeBuildErrorTreeViewPanel.FilterMode" value="ErrorsOnly" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19e7945c-0aaa-4f86-b377-eaff1ff9b8fe" name="Default Changelist" comment="" />
+      <created>1584260219786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584260219786</updated>
+      <workItem from="1584260224747" duration="14970000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="744" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584358071617">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="744" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584358071617" />
+    <state x="926" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1584360459805">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="608" y="187" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1584357165029" />
+    <state x="926" y="249" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584360459805" />
+    <state width="2508" height="475" key="GridCell.Tab.0.bottom" timestamp="1584361323461">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.0.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323461" />
+    <state width="2508" height="475" key="GridCell.Tab.0.center" timestamp="1584361323460">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.0.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323460" />
+    <state width="2508" height="475" key="GridCell.Tab.0.left" timestamp="1584361323459">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.0.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323459" />
+    <state width="2508" height="475" key="GridCell.Tab.0.right" timestamp="1584361323461">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.0.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323461" />
+    <state width="2508" height="475" key="GridCell.Tab.1.bottom" timestamp="1584361323463">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.1.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323463" />
+    <state width="2508" height="475" key="GridCell.Tab.1.center" timestamp="1584361323462">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.1.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323462" />
+    <state width="2508" height="475" key="GridCell.Tab.1.left" timestamp="1584361323462">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.1.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323462" />
+    <state width="2508" height="475" key="GridCell.Tab.1.right" timestamp="1584361323462">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.1.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323462" />
+    <state width="2508" height="475" key="GridCell.Tab.2.bottom" timestamp="1584361323464">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.2.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323464" />
+    <state width="2508" height="475" key="GridCell.Tab.2.center" timestamp="1584361323463">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.2.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323463" />
+    <state width="2508" height="475" key="GridCell.Tab.2.left" timestamp="1584361323463">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.2.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323463" />
+    <state width="2508" height="475" key="GridCell.Tab.2.right" timestamp="1584361323464">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.2.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323464" />
+    <state width="2508" height="475" key="GridCell.Tab.3.bottom" timestamp="1584361323465">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.3.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323465" />
+    <state width="2508" height="475" key="GridCell.Tab.3.center" timestamp="1584361323464">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.3.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323464" />
+    <state width="2508" height="475" key="GridCell.Tab.3.left" timestamp="1584361323464">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.3.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323464" />
+    <state width="2508" height="475" key="GridCell.Tab.3.right" timestamp="1584361323465">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.3.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323465" />
+    <state width="2508" height="475" key="GridCell.Tab.4.bottom" timestamp="1584361323466">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.4.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323466" />
+    <state width="2508" height="475" key="GridCell.Tab.4.center" timestamp="1584361323465">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.4.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323465" />
+    <state width="2508" height="475" key="GridCell.Tab.4.left" timestamp="1584361323465">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.4.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323465" />
+    <state width="2508" height="475" key="GridCell.Tab.4.right" timestamp="1584361323465">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="2508" height="475" key="GridCell.Tab.4.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323465" />
+    <state x="463" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1584260223487">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="463" y="330" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1584260223487" />
+    <state x="533" y="108" key="refactoring.ChangeSignatureDialog" timestamp="1584351462112">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="533" y="108" key="refactoring.ChangeSignatureDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1584351462112" />
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1584355490199">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1584355490199" />
+  </component>
+</project>

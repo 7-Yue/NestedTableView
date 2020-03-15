@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'NestedTableView_Example' do
+  pod 'NestedTableView', :path => '../'
+
+  target 'NestedTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
