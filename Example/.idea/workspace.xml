@@ -2,63 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19e7945c-0aaa-4f86-b377-eaff1ff9b8fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/NestedTableView_Example.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/xcode.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NestedTableView/NestedViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NestedTableView/NestedViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASCompositeConstraint.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASCompositeConstraint.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraint+Private.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraint.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraint.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraintMaker.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASConstraintMaker.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASLayoutConstraint.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASLayoutConstraint.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASUtilities.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewAttribute.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewAttribute.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewConstraint.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/MASViewConstraint.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/Masonry.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSArray+MASAdditions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSArray+MASAdditions.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSArray+MASShorthandAdditions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/NSLayoutConstraint+MASDebugAdditions.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/View+MASAdditions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/View+MASAdditions.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/View+MASShorthandAdditions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/ViewController+MASAdditions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/Masonry/ViewController+MASAdditions.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Masonry/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry-Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry-prefix.pch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry-umbrella.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedBaseViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedBaseViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedCollectionContainerCell.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedCollectionContainerCell.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableContainerCell.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableContainerCell.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableView.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableView.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NestedTableView.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/NestedTableView.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NestedTableView.xcodeproj/xcshareddata/xcschemes/NestedTableView-Example.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/NestedTableView.xcodeproj/xcshareddata/xcschemes/NestedTableView-Example.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NestedTableView/DEMOViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/NestedTableView/DEMOViewController.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NestedTableView.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedTableView.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NestedTableView/Classes/NestedBaseViewController.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedBaseViewController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableContainerCell.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableContainerCell.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableContainerCell.m" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableContainerCell.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableView.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableView.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableView.m" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableView.m" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584260219786</updated>
-      <workItem from="1584260224747" duration="14970000" />
+      <workItem from="1584260224747" duration="15838000" />
     </task>
     <servers />
   </component>
@@ -133,91 +82,91 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="744" y="388" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584358071617" />
-    <state x="926" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1584360459805">
+    <state x="926" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1584361761728">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="608" y="187" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1584357165029" />
-    <state x="926" y="249" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584360459805" />
-    <state width="2508" height="475" key="GridCell.Tab.0.bottom" timestamp="1584361323461">
+    <state x="926" y="249" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361761728" />
+    <state width="2508" height="475" key="GridCell.Tab.0.bottom" timestamp="1584361718251">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.0.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323461" />
-    <state width="2508" height="475" key="GridCell.Tab.0.center" timestamp="1584361323460">
+    <state width="2508" height="475" key="GridCell.Tab.0.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718251" />
+    <state width="2508" height="475" key="GridCell.Tab.0.center" timestamp="1584361718250">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.0.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323460" />
-    <state width="2508" height="475" key="GridCell.Tab.0.left" timestamp="1584361323459">
+    <state width="2508" height="475" key="GridCell.Tab.0.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718250" />
+    <state width="2508" height="475" key="GridCell.Tab.0.left" timestamp="1584361718250">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.0.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323459" />
-    <state width="2508" height="475" key="GridCell.Tab.0.right" timestamp="1584361323461">
+    <state width="2508" height="475" key="GridCell.Tab.0.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718250" />
+    <state width="2508" height="475" key="GridCell.Tab.0.right" timestamp="1584361718251">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.0.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323461" />
-    <state width="2508" height="475" key="GridCell.Tab.1.bottom" timestamp="1584361323463">
+    <state width="2508" height="475" key="GridCell.Tab.0.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718251" />
+    <state width="2508" height="475" key="GridCell.Tab.1.bottom" timestamp="1584361718252">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.1.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323463" />
-    <state width="2508" height="475" key="GridCell.Tab.1.center" timestamp="1584361323462">
+    <state width="2508" height="475" key="GridCell.Tab.1.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718252" />
+    <state width="2508" height="475" key="GridCell.Tab.1.center" timestamp="1584361718251">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.1.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323462" />
-    <state width="2508" height="475" key="GridCell.Tab.1.left" timestamp="1584361323462">
+    <state width="2508" height="475" key="GridCell.Tab.1.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718251" />
+    <state width="2508" height="475" key="GridCell.Tab.1.left" timestamp="1584361718251">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.1.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323462" />
-    <state width="2508" height="475" key="GridCell.Tab.1.right" timestamp="1584361323462">
+    <state width="2508" height="475" key="GridCell.Tab.1.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718251" />
+    <state width="2508" height="475" key="GridCell.Tab.1.right" timestamp="1584361718252">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.1.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323462" />
-    <state width="2508" height="475" key="GridCell.Tab.2.bottom" timestamp="1584361323464">
+    <state width="2508" height="475" key="GridCell.Tab.1.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718252" />
+    <state width="2508" height="475" key="GridCell.Tab.2.bottom" timestamp="1584361718253">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.2.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323464" />
-    <state width="2508" height="475" key="GridCell.Tab.2.center" timestamp="1584361323463">
+    <state width="2508" height="475" key="GridCell.Tab.2.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718253" />
+    <state width="2508" height="475" key="GridCell.Tab.2.center" timestamp="1584361718252">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.2.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323463" />
-    <state width="2508" height="475" key="GridCell.Tab.2.left" timestamp="1584361323463">
+    <state width="2508" height="475" key="GridCell.Tab.2.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718252" />
+    <state width="2508" height="475" key="GridCell.Tab.2.left" timestamp="1584361718252">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.2.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323463" />
-    <state width="2508" height="475" key="GridCell.Tab.2.right" timestamp="1584361323464">
+    <state width="2508" height="475" key="GridCell.Tab.2.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718252" />
+    <state width="2508" height="475" key="GridCell.Tab.2.right" timestamp="1584361718252">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.2.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323464" />
-    <state width="2508" height="475" key="GridCell.Tab.3.bottom" timestamp="1584361323465">
+    <state width="2508" height="475" key="GridCell.Tab.2.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718252" />
+    <state width="2508" height="475" key="GridCell.Tab.3.bottom" timestamp="1584361718254">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.3.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323465" />
-    <state width="2508" height="475" key="GridCell.Tab.3.center" timestamp="1584361323464">
+    <state width="2508" height="475" key="GridCell.Tab.3.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718254" />
+    <state width="2508" height="475" key="GridCell.Tab.3.center" timestamp="1584361718253">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.3.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323464" />
-    <state width="2508" height="475" key="GridCell.Tab.3.left" timestamp="1584361323464">
+    <state width="2508" height="475" key="GridCell.Tab.3.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718253" />
+    <state width="2508" height="475" key="GridCell.Tab.3.left" timestamp="1584361718253">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.3.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323464" />
-    <state width="2508" height="475" key="GridCell.Tab.3.right" timestamp="1584361323465">
+    <state width="2508" height="475" key="GridCell.Tab.3.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718253" />
+    <state width="2508" height="475" key="GridCell.Tab.3.right" timestamp="1584361718253">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.3.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323465" />
-    <state width="2508" height="475" key="GridCell.Tab.4.bottom" timestamp="1584361323466">
+    <state width="2508" height="475" key="GridCell.Tab.3.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718253" />
+    <state width="2508" height="475" key="GridCell.Tab.4.bottom" timestamp="1584361718254">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.4.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323466" />
-    <state width="2508" height="475" key="GridCell.Tab.4.center" timestamp="1584361323465">
+    <state width="2508" height="475" key="GridCell.Tab.4.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718254" />
+    <state width="2508" height="475" key="GridCell.Tab.4.center" timestamp="1584361718254">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.4.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323465" />
-    <state width="2508" height="475" key="GridCell.Tab.4.left" timestamp="1584361323465">
+    <state width="2508" height="475" key="GridCell.Tab.4.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718254" />
+    <state width="2508" height="475" key="GridCell.Tab.4.left" timestamp="1584361718254">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.4.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323465" />
-    <state width="2508" height="475" key="GridCell.Tab.4.right" timestamp="1584361323465">
+    <state width="2508" height="475" key="GridCell.Tab.4.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718254" />
+    <state width="2508" height="475" key="GridCell.Tab.4.right" timestamp="1584361718254">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.4.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361323465" />
+    <state width="2508" height="475" key="GridCell.Tab.4.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718254" />
     <state x="463" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1584260223487">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

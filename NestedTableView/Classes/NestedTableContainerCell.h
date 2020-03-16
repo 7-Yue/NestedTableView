@@ -8,9 +8,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-#pragma mark - NestedTableContainerCellScrollDelegate
+#pragma mark - NestedTableContainerCellExternalScrollDelegate
 
-@protocol NestedTableContainerCellScrollDelegate <NSObject>
+@@protocol NestedTableContainerCellExternalScrollDelegate <NSObject>
+
+- (void)collectionViewDidScroll:(UIScrollView *) scrollView;
+
+@end
+
+#pragma mark - NestedTableContainerCellInternalScrollDelegate
+
+@protocol NestedTableContainerCellInternalScrollDelegate <NSObject>
 
 - (void)containerCellWillDisplayInternalTableView:(UITableView *)internalTableView;
 
@@ -31,12 +39,13 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - NestedTableContainerCell
 
 @interface NestedTableContainerCell : UITableViewCell
-
+//  ⚠️不要设置UICollectionView 的delegate 和 dataSource
 @property(nonatomic, strong, readonly) UICollectionView *collectionView;
 /// 默认为40
 @property(nonatomic, assign) CGFloat collectionViewTopMargin;
-
-@property(nonatomic, weak) id <NestedTableContainerCellScrollDelegate> scrollDelegate;
+@property(nonatomic, weak) id <NestedTableContainerCellExternalScrollDelegate> externalScrollDelegate;
+//  ⚠️不要设置scrollDelegate
+@property(nonatomic, weak) id <NestedTableContainerCellInternalScrollDelegate> internalScrollDelegate;
 
 - (instancetype)initWithDataSource:(id <NestedTableContainerCellDataSource>)dataSource NS_DESIGNATED_INITIALIZER;
 

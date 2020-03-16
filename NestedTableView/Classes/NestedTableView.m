@@ -8,7 +8,7 @@
 #import "NestedTableView.h"
 #import "NestedTableContainerCell.h"
 
-@interface NestedTableView () <UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate, NestedTableContainerCellScrollDelegate>
+@interface NestedTableView () <UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate, NestedTableContainerCellInternalScrollDelegate>
 
 @property(weak, nonatomic) id <NestedTableViewDelegate> nestedTableViewDelegate;
 @property(weak, nonatomic) id <NestedTableViewDataSource> nestedTableViewDataSource;
@@ -90,7 +90,7 @@
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.section == ([self p_originalSectionCount] - 1)) {
         if ([cell isKindOfClass:[NestedTableContainerCell class]]) {
-            ((NestedTableContainerCell *)cell).scrollDelegate = self;
+            ((NestedTableContainerCell *)cell).internalScrollDelegate = self;
         }
     } else {
         if (self.nestedTableViewDelegate &&

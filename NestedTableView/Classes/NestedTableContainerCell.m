@@ -64,18 +64,23 @@ NSString *const kNestedCollectionContainerCell = @"kNestedCollectionContainerCel
         if (self.dataSource) {
             NestedBaseViewController *vc = [self.dataSource nestedViewControllerWithIndex:indexPath.row];
             vc.scrollDelegate = self;
-            if (self.scrollDelegate && [self.scrollDelegate respondsToSelector:@selector(containerCellWillDisplayInternalTableView:)]) {
-                [self.scrollDelegate containerCellWillDisplayInternalTableView:vc.internalTableView];
+            if (self.internalScrollDelegate && [self.internalScrollDelegate respondsToSelector:@selector(containerCellWillDisplayInternalTableView:)]) {
+                [self.internalScrollDelegate containerCellWillDisplayInternalTableView:vc.internalTableView];
             }
             [containerCell configSubViewController:vc];
         }
     }
+}
 
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    if (self.externalScrollDelegate && [self.externalScrollDelegate respondsToSelector:@selector(collectionViewDidScroll:)]) {
+        [self.externalScrollDelegate collectionViewDidScroll:scrollView];
+    }
 }
 
 - (void)tableViewDidScroll:(UITableView *)tableView {
-    if (self.scrollDelegate && [self.scrollDelegate respondsToSelector:@selector(internalTableViewDidScroll:)]) {
-        [self.scrollDelegate internalTableViewDidScroll:tableView];
+    if (self.internalScrollDelegate && [self.internalScrollDelegate respondsToSelector:@selector(internalTableViewDidScroll:)]) {
+        [self.internalScrollDelegate internalTableViewDidScroll:tableView];
     }
 }
 

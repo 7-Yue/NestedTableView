@@ -55,7 +55,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (CGFloat)limitContentOffSetY;
 @end
-
+//  ⚠️不要设置NestedTableView 的delegate 和 dataSource
 @interface NestedTableView : UITableView
 
 - (instancetype)initWithFrame:(CGRect)frame
