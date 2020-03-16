@@ -10,7 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - NestedTableContainerCellExternalScrollDelegate
 
-@@protocol NestedTableContainerCellExternalScrollDelegate <NSObject>
+@protocol NestedTableContainerCellExternalScrollDelegate <NSObject>
 
 - (void)collectionViewDidScroll:(UIScrollView *) scrollView;
 

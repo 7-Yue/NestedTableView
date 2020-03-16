@@ -7,291 +7,235 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
-		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
-		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18BB32268D45E59331B0845E3ECFE799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
-		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
-		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F1B6823B764B456E1E6B05C2FB49D16 /* NestedTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79069395227742C630F57E31CAF8636E /* NestedTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50B23993B47FEDF1B66580E297A29CAE /* NestedTableContainerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7F74DFB9DF3D871A2816C0DBF05CB1 /* NestedTableContainerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58C45D1E1E6A6D371733E36433177DD9 /* NestedTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9AC6510D48161EA1A17E02396877D82 /* NestedTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CFE80616767133A1F6622213A893DA1 /* NestedBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A5E3B25AA365117934FBA22FC3E5A6 /* NestedBaseViewController.m */; };
-		6028752087FD395850E0A0038677A5A5 /* Pods-NestedTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBAA3CB55A6473EB49F2E172F85B20A /* Pods-NestedTableView_Tests-dummy.m */; };
-		65A74C2E0DDB30AFFC8D153AE9216324 /* Pods-NestedTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 609BE4A53D7F7F5B06A88B57547FF716 /* Pods-NestedTableView_Example-dummy.m */; };
-		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6ADBA08617C39A25153368922FF0B5CA /* NestedBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FD78241C438CC798C697D430C7FC4A /* NestedBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77DABFE9A5FF6857A7FA44BD27E8ADAB /* Pods-NestedTableView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBF4121F2B6E70AAA2269547B1BB338 /* Pods-NestedTableView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
-		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
-		840B5891A3A7C735AA015DB5C5F03F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
-		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F087A1EE19F0A0BC04F179590239DD2 /* NestedCollectionContainerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DAEF59E1745B659CCE25EA6E4BB67292 /* NestedCollectionContainerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F9D6A8D7235EC36F7158364DA3025E0 /* NestedCollectionContainerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD18ED9BB4C8B8E7ABF447A2B2482A29 /* NestedCollectionContainerCell.m */; };
-		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96B7626883E773AD83CCBEBA91DC5645 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D13C040272CF8F4139FD307422F3C24 /* ReplaceMe.m */; };
-		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
-		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
-		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		D36E000A0591DCB8C97D7B6CD1D0F1D0 /* NestedTableContainerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 862282A7819D284BE213258232DF12B1 /* NestedTableContainerCell.m */; };
-		DCBC6B28D858656BB157783A7B6ABCF4 /* NestedTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE4E1731D2CF913B5B6CC583D26AA1A /* NestedTableView-dummy.m */; };
-		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8D1AB142A5F92461D51147E806F15CE /* Pods-NestedTableView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C72EF66AFFA20428E595BFA99D29F2 /* Pods-NestedTableView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
-		E949BCFB4F0220098F7072D5D0D3B51A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		E964D37FB800F40236AF0462BB71FBE8 /* NestedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34443B60A3F3E47DABB08C41A63658C1 /* NestedTableView.m */; };
-		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FA19C525E9623030ABC992A174F511EA /* MASLayoutConstraint.m */; };
+		0B614625D1294E7DF07BC189B55FD626 /* NestedCollectionContainerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C09BD32295C3ACAC86A814A491B72EF3 /* NestedCollectionContainerCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2908E4735BA0B1A9400806F20C78BE2E /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B3E352AE8065ABC1A8CD767952F945E /* NestedCollectionContainerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD6970F311348403E3DACB535D0F792 /* NestedCollectionContainerCell.m */; };
+		1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 432F18DFE077C5EFC0501BA30FA26ABC /* MASConstraintMaker.m */; };
+		42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 298B114B7EB3F9D6A44F1C72AC8AEDC0 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4539F7B7FF5C690B07B03365006FBC12 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EBBF54A61AF0E5E4D594222853BEC03 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		543119499FC2276B775BBB74FD08ECDA /* NestedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FB71AAF19B55E6FC12B845A0AF4D0 /* NestedTableView.m */; };
+		572D05B146EAA3EF5530A0D0E34904A0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A719A01F16EE8808A3AC31BB852811F1 /* MASViewConstraint.m */; };
+		59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8776E5B73DEEC44515CD5BB084B50644 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		615A0BEB9C8EA21CFFB49730198972E3 /* NestedTableContainerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 648338401CE8709A85CE06D616C8ED3F /* NestedTableContainerCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63F87C318437740E8202E4D3DD0826FA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEE89CA7ABA16A169A6E2596E17A997 /* MASCompositeConstraint.m */; };
+		65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C7867A74BA9B3C8E4D7EC302A7C69E06 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		67B0166E17FFA9E4C75CFC38C5FE6748 /* NestedTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F604C7E7443CDD538A41B5D8152A0F /* NestedTableView-dummy.m */; };
+		7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C1FD50FCC28DB800D6EF0C41A1390D86 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 40671FF5AAEBABBB84CFC1491F84928F /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8220DCFE502EE09B89B92C74DBC34BE7 /* NestedTableContainerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BA3083620CBBB3E764F44E186DFFE /* NestedTableContainerCell.m */; };
+		82D26677232EBFE9B918703970BE67E7 /* NestedTableViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1847ECC3594ECDDDFB9C4FCB6AF8666F /* NestedTableViewHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82FAC182BBCAFF99778FC2E98D6DA48C /* NestedBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 460892AB9D9CD052B54AE86D51964544 /* NestedBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C666A3476EFB0C11C71575786230198 /* NestedTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7C70CCBD45ED91063C5A29B001CC7E /* NestedTableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E749F55680892BBF11110631172966 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A1F412864BD5CAE0593ED757457E90 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A2CACB04AFA13A45322DA32F533F168 /* NestedBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C7381CB978473877D7B7ECE7FCB012 /* NestedBaseViewController.m */; };
+		A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 191B7E1B4F214FE9F3134387162EA957 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F843975670B4F8AE5B714AB02EF1B0 /* MASViewAttribute.m */; };
+		B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = B6722EDE7B90102FA7687FF83CB0FA29 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B23733FCA117EB1BE3338454239DA6C1 /* Pods-NestedTableView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B57D964024A7863A832486C5C7BB2265 /* Pods-NestedTableView_Example-dummy.m */; };
+		B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46999533CD42BAE664E95B9935B416D0 /* NSArray+MASAdditions.m */; };
+		C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F72DBB73011C979E0760EFE7BA0A768 /* ViewController+MASAdditions.m */; };
+		C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CF6E3AB1AF0EBE3CF73CB4361B28E0 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E688AC4A19E399EB2F7BEE821BA97A4B /* View+MASAdditions.m */; };
+		D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 119BC569782F4BD1F3ACED01A9CA8EC9 /* Masonry-dummy.m */; };
+		E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E28BE40A980ECFA0C5E71CDF7403F7BC /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD039AC2FD738DC6B7E1D233A27D2A8 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED31FF6781C8F37D7AB4BE58D1F82BE6 /* Pods-NestedTableView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E45DBE86E6092AEE1317D9E7482620DC /* Pods-NestedTableView_Tests-dummy.m */; };
+		EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 460F3F6D12B163631424C83D43FB2C71 /* MASConstraint.m */; };
+		F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 286B17CD4870DF3FD3C46BB8A2499A7A /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4DFFACB1F606ABDC04312F24E8109492 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7193DBA1C84AA7F035EBF73975ADBF75;
-			remoteInfo = "Pods-NestedTableView_Example";
-		};
-		79F5936C116E50DF215CFF9CA0CBB958 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
-		EE55C481293E9CB16A2C702F013FB054 /* PBXContainerItemProxy */ = {
+		59EB82C8DDCCDAA73041ACED24E48B30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BCD5016987D0E7E6BF2451636EE63D22;
 			remoteInfo = NestedTableView;
 		};
+		9A33B2B1F8D27239C333697545BE8635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7193DBA1C84AA7F035EBF73975ADBF75;
+			remoteInfo = "Pods-NestedTableView_Example";
+		};
+		B8731EAF0E9D37CD72BAA24FBFDE99F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		0C5ED788F648649F3B45997C9ABE6CD5 /* Pods-NestedTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NestedTableView_Example.modulemap"; sourceTree = "<group>"; };
-		0D68E507A3FCD9568179AD15D4C128FD /* Pods_NestedTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NestedTableView_Tests.framework; path = "Pods-NestedTableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		1F4F76DDEE94871ECD0095CD9F2A01CB /* Pods-NestedTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestedTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EE4E1731D2CF913B5B6CC583D26AA1A /* NestedTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NestedTableView-dummy.m"; sourceTree = "<group>"; };
-		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		34443B60A3F3E47DABB08C41A63658C1 /* NestedTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NestedTableView.m; path = NestedTableView/Classes/NestedTableView.m; sourceTree = "<group>"; };
-		34C72EF66AFFA20428E595BFA99D29F2 /* Pods-NestedTableView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NestedTableView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3615B4685F9AA9EA5929BF2803484900 /* Pods-NestedTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NestedTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		3EBF4121F2B6E70AAA2269547B1BB338 /* Pods-NestedTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NestedTableView_Example-umbrella.h"; sourceTree = "<group>"; };
-		413F60A395D37218CE4D6D527A06A30F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		53FD78241C438CC798C697D430C7FC4A /* NestedBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NestedBaseViewController.h; path = NestedTableView/Classes/NestedBaseViewController.h; sourceTree = "<group>"; };
-		54A5E3B25AA365117934FBA22FC3E5A6 /* NestedBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NestedBaseViewController.m; path = NestedTableView/Classes/NestedBaseViewController.m; sourceTree = "<group>"; };
-		5509BE1F390641257C918096C838DBF8 /* NestedTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NestedTableView.modulemap; sourceTree = "<group>"; };
-		59C958A7570497759EC8F9FC02313360 /* Pods-NestedTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestedTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		609BE4A53D7F7F5B06A88B57547FF716 /* Pods-NestedTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NestedTableView_Example-dummy.m"; sourceTree = "<group>"; };
-		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		66B6F3F6033F4392BADD9384AB1E1407 /* NestedTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NestedTableView.xcconfig; sourceTree = "<group>"; };
-		685BC5F1CF70CD7E4B652A7A7FE7415E /* Pods-NestedTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NestedTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		77C7E9D2D0DB7E1546BBD918791C9F8B /* Pods_NestedTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NestedTableView_Example.framework; path = "Pods-NestedTableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79069395227742C630F57E31CAF8636E /* NestedTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NestedTableView.h; path = NestedTableView/Classes/NestedTableView.h; sourceTree = "<group>"; };
-		7D13C040272CF8F4139FD307422F3C24 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = NestedTableView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		80FE89342BB57A77442FCB653AFC2A22 /* Pods-NestedTableView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestedTableView_Example-Info.plist"; sourceTree = "<group>"; };
-		862282A7819D284BE213258232DF12B1 /* NestedTableContainerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NestedTableContainerCell.m; path = NestedTableView/Classes/NestedTableContainerCell.m; sourceTree = "<group>"; };
-		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		87FDC1AF032CEEE28CC46AB6AED0460C /* Pods-NestedTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestedTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		88D38D43669C70B539437651910FEBDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		98467AA6B20C3CF581EE3253F3609972 /* Pods-NestedTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestedTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		038B8F5AC564A8570327E28DB8892AAA /* NestedTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NestedTableView.xcconfig; sourceTree = "<group>"; };
+		096BF59A056DE28583977E8EDC593DB2 /* Pods-NestedTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestedTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D68E507A3FCD9568179AD15D4C128FD /* libPods-NestedTableView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NestedTableView_Tests.a"; path = "libPods-NestedTableView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		119BC569782F4BD1F3ACED01A9CA8EC9 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		13F604C7E7443CDD538A41B5D8152A0F /* NestedTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NestedTableView-dummy.m"; sourceTree = "<group>"; };
+		1847ECC3594ECDDDFB9C4FCB6AF8666F /* NestedTableViewHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NestedTableViewHeader.h; path = NestedTableView/Classes/NestedTableViewHeader.h; sourceTree = "<group>"; };
+		189BA3083620CBBB3E764F44E186DFFE /* NestedTableContainerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NestedTableContainerCell.m; path = NestedTableView/Classes/NestedTableContainerCell.m; sourceTree = "<group>"; };
+		191B7E1B4F214FE9F3134387162EA957 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		286B17CD4870DF3FD3C46BB8A2499A7A /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		2908E4735BA0B1A9400806F20C78BE2E /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		298B114B7EB3F9D6A44F1C72AC8AEDC0 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		40671FF5AAEBABBB84CFC1491F84928F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		41A1F412864BD5CAE0593ED757457E90 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		432F18DFE077C5EFC0501BA30FA26ABC /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		446EF11B5DA0C644DCB4632695B2791E /* Pods-NestedTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestedTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4539F7B7FF5C690B07B03365006FBC12 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		460892AB9D9CD052B54AE86D51964544 /* NestedBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NestedBaseViewController.h; path = NestedTableView/Classes/NestedBaseViewController.h; sourceTree = "<group>"; };
+		460F3F6D12B163631424C83D43FB2C71 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		46999533CD42BAE664E95B9935B416D0 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		648338401CE8709A85CE06D616C8ED3F /* NestedTableContainerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NestedTableContainerCell.h; path = NestedTableView/Classes/NestedTableContainerCell.h; sourceTree = "<group>"; };
+		687718DF472016E1F659D5B4454CC6B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6EBBF54A61AF0E5E4D594222853BEC03 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		75A4F7C881E4548620ED32B7AA48BA3D /* Pods-NestedTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestedTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		77C7E9D2D0DB7E1546BBD918791C9F8B /* libPods-NestedTableView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NestedTableView_Example.a"; path = "libPods-NestedTableView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E6D15C97724810E25C20DFCE16404E9 /* Pods-NestedTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NestedTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81458E2B9FDF543A6A50EF5A89A7EA0F /* NestedTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NestedTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8776E5B73DEEC44515CD5BB084B50644 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		89F843975670B4F8AE5B714AB02EF1B0 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		8F72DBB73011C979E0760EFE7BA0A768 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		9540AAE6DCA967ACEA7AA7137140EEA0 /* Pods-NestedTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestedTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		98CF6E3AB1AF0EBE3CF73CB4361B28E0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		998068ED59226C6F9779CAF5E8D9BA3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		A3AE7113DFDEEB1E70D7E0B5293C91D7 /* NestedTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NestedTableView.framework; path = NestedTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		ACBAA3CB55A6473EB49F2E172F85B20A /* Pods-NestedTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NestedTableView_Tests-dummy.m"; sourceTree = "<group>"; };
-		ACFFB27C9B78A222E056F82D4FCEDBE1 /* NestedTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NestedTableView-Info.plist"; sourceTree = "<group>"; };
-		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		B4B13DFC1446EC91FC4619840416771E /* NestedTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NestedTableView-prefix.pch"; sourceTree = "<group>"; };
-		B92DDCA2FAD14072BB5C0FD883D2EA38 /* Pods-NestedTableView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NestedTableView_Tests.modulemap"; sourceTree = "<group>"; };
-		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		C8C4C12CCD6592AE76474F66D401C829 /* Pods-NestedTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestedTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C9AC6510D48161EA1A17E02396877D82 /* NestedTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NestedTableView-umbrella.h"; sourceTree = "<group>"; };
-		CC2917BA3F563D2FFB789A183F53E975 /* Pods-NestedTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NestedTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D03AA67A8E342D734BE9F49CDC5A81DA /* NestedTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NestedTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		DAEF59E1745B659CCE25EA6E4BB67292 /* NestedCollectionContainerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NestedCollectionContainerCell.h; path = NestedTableView/Classes/NestedCollectionContainerCell.h; sourceTree = "<group>"; };
-		DD18ED9BB4C8B8E7ABF447A2B2482A29 /* NestedCollectionContainerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NestedCollectionContainerCell.m; path = NestedTableView/Classes/NestedCollectionContainerCell.m; sourceTree = "<group>"; };
-		DDA40CDE9893FB442CA7DA8BB74CD9D6 /* Pods-NestedTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestedTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		EEC9F081BCE489D6A5222ED10251E8BF /* Pods-NestedTableView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NestedTableView_Tests-Info.plist"; sourceTree = "<group>"; };
-		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		FD7F74DFB9DF3D871A2816C0DBF05CB1 /* NestedTableContainerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NestedTableContainerCell.h; path = NestedTableView/Classes/NestedTableContainerCell.h; sourceTree = "<group>"; };
-		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		9E5BF26B2C605E0222A2CED45A1EDD24 /* NestedTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NestedTableView-prefix.pch"; sourceTree = "<group>"; };
+		A3AE7113DFDEEB1E70D7E0B5293C91D7 /* libNestedTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNestedTableView.a; path = libNestedTableView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A719A01F16EE8808A3AC31BB852811F1 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		B57D964024A7863A832486C5C7BB2265 /* Pods-NestedTableView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NestedTableView_Example-dummy.m"; sourceTree = "<group>"; };
+		B6722EDE7B90102FA7687FF83CB0FA29 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		B8BAA23B3457F73621DE9E869880B36A /* Pods-NestedTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestedTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BFD6970F311348403E3DACB535D0F792 /* NestedCollectionContainerCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NestedCollectionContainerCell.m; path = NestedTableView/Classes/NestedCollectionContainerCell.m; sourceTree = "<group>"; };
+		C09BD32295C3ACAC86A814A491B72EF3 /* NestedCollectionContainerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NestedCollectionContainerCell.h; path = NestedTableView/Classes/NestedCollectionContainerCell.h; sourceTree = "<group>"; };
+		C1FD50FCC28DB800D6EF0C41A1390D86 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C7867A74BA9B3C8E4D7EC302A7C69E06 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		CEC58C662DF564AED5C45A3F2B0E0E97 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		E1E749F55680892BBF11110631172966 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		E28BE40A980ECFA0C5E71CDF7403F7BC /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		E45DBE86E6092AEE1317D9E7482620DC /* Pods-NestedTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NestedTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		E688AC4A19E399EB2F7BEE821BA97A4B /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		E6C7381CB978473877D7B7ECE7FCB012 /* NestedBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NestedBaseViewController.m; path = NestedTableView/Classes/NestedBaseViewController.m; sourceTree = "<group>"; };
+		E977F704FEF539BB423BEA3EE69EE03C /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		EBD039AC2FD738DC6B7E1D233A27D2A8 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		ECA2FCF59015EFFCE4009D04DEC8DC75 /* Pods-NestedTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NestedTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ECEE89CA7ABA16A169A6E2596E17A997 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EE7C70CCBD45ED91063C5A29B001CC7E /* NestedTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NestedTableView.h; path = NestedTableView/Classes/NestedTableView.h; sourceTree = "<group>"; };
+		F63FB71AAF19B55E6FC12B845A0AF4D0 /* NestedTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NestedTableView.m; path = NestedTableView/Classes/NestedTableView.m; sourceTree = "<group>"; };
+		FA19C525E9623030ABC992A174F511EA /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		FB557F6244DCDDD41F7711A71E5E9D7B /* Pods-NestedTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NestedTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20B14EE81A92CF17B77FDA9614DA255B /* Frameworks */ = {
+		01095FBE532CF5AA0855A20BDA54BF0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E949BCFB4F0220098F7072D5D0D3B51A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AECB370A62F1D6B18C1E70151472056 /* Frameworks */ = {
+		7ACC1BE1E1E38AA68947CFE4ACD60A19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840B5891A3A7C735AA015DB5C5F03F3A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44606F9CFB530F694473E0E6F84651E3 /* Frameworks */ = {
+		828A1BA2209D44DBF1277723AE317756 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BB32268D45E59331B0845E3ECFE799 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
+		CD7B12B6FBC5F42BC29A7E80DE33F554 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
-				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		07B98A90E6388B2701C5E5A1757E2767 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+				CEC58C662DF564AED5C45A3F2B0E0E97 /* Masonry.xcconfig */,
+				119BC569782F4BD1F3ACED01A9CA8EC9 /* Masonry-dummy.m */,
+				E977F704FEF539BB423BEA3EE69EE03C /* Masonry-prefix.pch */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		24AC03351804C6E6579FBEE1962F1192 /* Pod */ = {
+		284F23ED5E1EB446BA35495BC4C19A23 /* Pods-NestedTableView_Example */ = {
 			isa = PBXGroup;
 			children = (
-				88D38D43669C70B539437651910FEBDF /* LICENSE */,
-				D03AA67A8E342D734BE9F49CDC5A81DA /* NestedTableView.podspec */,
-				413F60A395D37218CE4D6D527A06A30F /* README.md */,
+				7E6D15C97724810E25C20DFCE16404E9 /* Pods-NestedTableView_Example-acknowledgements.markdown */,
+				9540AAE6DCA967ACEA7AA7137140EEA0 /* Pods-NestedTableView_Example-acknowledgements.plist */,
+				B57D964024A7863A832486C5C7BB2265 /* Pods-NestedTableView_Example-dummy.m */,
+				B8BAA23B3457F73621DE9E869880B36A /* Pods-NestedTableView_Example.debug.xcconfig */,
+				ECA2FCF59015EFFCE4009D04DEC8DC75 /* Pods-NestedTableView_Example.release.xcconfig */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2EB050708FCD139023992740589C00F5 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EDB5D48C44308F81C75B8613F22A4276 /* Pods-NestedTableView_Example */,
-				38F363649CC6C0634B3D065FE3368C17 /* Pods-NestedTableView_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		38F363649CC6C0634B3D065FE3368C17 /* Pods-NestedTableView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				B92DDCA2FAD14072BB5C0FD883D2EA38 /* Pods-NestedTableView_Tests.modulemap */,
-				685BC5F1CF70CD7E4B652A7A7FE7415E /* Pods-NestedTableView_Tests-acknowledgements.markdown */,
-				87FDC1AF032CEEE28CC46AB6AED0460C /* Pods-NestedTableView_Tests-acknowledgements.plist */,
-				ACBAA3CB55A6473EB49F2E172F85B20A /* Pods-NestedTableView_Tests-dummy.m */,
-				EEC9F081BCE489D6A5222ED10251E8BF /* Pods-NestedTableView_Tests-Info.plist */,
-				34C72EF66AFFA20428E595BFA99D29F2 /* Pods-NestedTableView_Tests-umbrella.h */,
-				98467AA6B20C3CF581EE3253F3609972 /* Pods-NestedTableView_Tests.debug.xcconfig */,
-				C8C4C12CCD6592AE76474F66D401C829 /* Pods-NestedTableView_Tests.release.xcconfig */,
-			);
-			name = "Pods-NestedTableView_Tests";
-			path = "Target Support Files/Pods-NestedTableView_Tests";
+			name = "Pods-NestedTableView_Example";
+			path = "Target Support Files/Pods-NestedTableView_Example";
 			sourceTree = "<group>";
 		};
 		39AF4A81A5C0953FB2DFC44A0DFF61D7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4479A748F704DD882331FF66BF674070 /* NestedTableView */,
+				F7E28B432819414491EF96F08C1C0DF5 /* NestedTableView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4479A748F704DD882331FF66BF674070 /* NestedTableView */ = {
+		4267BFD24499AD69FE962EDF7F6A92A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53FD78241C438CC798C697D430C7FC4A /* NestedBaseViewController.h */,
-				54A5E3B25AA365117934FBA22FC3E5A6 /* NestedBaseViewController.m */,
-				DAEF59E1745B659CCE25EA6E4BB67292 /* NestedCollectionContainerCell.h */,
-				DD18ED9BB4C8B8E7ABF447A2B2482A29 /* NestedCollectionContainerCell.m */,
-				FD7F74DFB9DF3D871A2816C0DBF05CB1 /* NestedTableContainerCell.h */,
-				862282A7819D284BE213258232DF12B1 /* NestedTableContainerCell.m */,
-				79069395227742C630F57E31CAF8636E /* NestedTableView.h */,
-				34443B60A3F3E47DABB08C41A63658C1 /* NestedTableView.m */,
-				7D13C040272CF8F4139FD307422F3C24 /* ReplaceMe.m */,
-				24AC03351804C6E6579FBEE1962F1192 /* Pod */,
-				E0977E31EB658C974E90B9349CBD4466 /* Support Files */,
+				1FFED36A657123030ABB700256D73F15 /* libMasonry.a */,
+				A3AE7113DFDEEB1E70D7E0B5293C91D7 /* libNestedTableView.a */,
+				77C7E9D2D0DB7E1546BBD918791C9F8B /* libPods-NestedTableView_Example.a */,
+				0D68E507A3FCD9568179AD15D4C128FD /* libPods-NestedTableView_Tests.a */,
 			);
-			name = NestedTableView;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		641727D7EBF7D099C436C5885417E360 /* Masonry */ = {
+		674F7631E4B305BC866389353892D9F4 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */,
-				B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */,
-				130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */,
-				1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */,
-				D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */,
-				3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */,
-				36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */,
-				115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */,
-				5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */,
-				F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */,
-				86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */,
-				0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */,
-				ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */,
-				B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */,
-				A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */,
-				F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */,
-				C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */,
-				DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */,
-				9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */,
-				896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */,
-				FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */,
-				9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */,
-				1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */,
-				071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */,
-				BDFB34A12FABD70C59DCE49920774B47 /* Support Files */,
+				41A1F412864BD5CAE0593ED757457E90 /* MASCompositeConstraint.h */,
+				ECEE89CA7ABA16A169A6E2596E17A997 /* MASCompositeConstraint.m */,
+				EBD039AC2FD738DC6B7E1D233A27D2A8 /* MASConstraint.h */,
+				460F3F6D12B163631424C83D43FB2C71 /* MASConstraint.m */,
+				6EBBF54A61AF0E5E4D594222853BEC03 /* MASConstraint+Private.h */,
+				E1E749F55680892BBF11110631172966 /* MASConstraintMaker.h */,
+				432F18DFE077C5EFC0501BA30FA26ABC /* MASConstraintMaker.m */,
+				C1FD50FCC28DB800D6EF0C41A1390D86 /* MASLayoutConstraint.h */,
+				FA19C525E9623030ABC992A174F511EA /* MASLayoutConstraint.m */,
+				B6722EDE7B90102FA7687FF83CB0FA29 /* Masonry.h */,
+				C7867A74BA9B3C8E4D7EC302A7C69E06 /* MASUtilities.h */,
+				298B114B7EB3F9D6A44F1C72AC8AEDC0 /* MASViewAttribute.h */,
+				89F843975670B4F8AE5B714AB02EF1B0 /* MASViewAttribute.m */,
+				2908E4735BA0B1A9400806F20C78BE2E /* MASViewConstraint.h */,
+				A719A01F16EE8808A3AC31BB852811F1 /* MASViewConstraint.m */,
+				286B17CD4870DF3FD3C46BB8A2499A7A /* NSArray+MASAdditions.h */,
+				46999533CD42BAE664E95B9935B416D0 /* NSArray+MASAdditions.m */,
+				40671FF5AAEBABBB84CFC1491F84928F /* NSArray+MASShorthandAdditions.h */,
+				98CF6E3AB1AF0EBE3CF73CB4361B28E0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				8776E5B73DEEC44515CD5BB084B50644 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				4539F7B7FF5C690B07B03365006FBC12 /* View+MASAdditions.h */,
+				E688AC4A19E399EB2F7BEE821BA97A4B /* View+MASAdditions.m */,
+				191B7E1B4F214FE9F3134387162EA957 /* View+MASShorthandAdditions.h */,
+				E28BE40A980ECFA0C5E71CDF7403F7BC /* ViewController+MASAdditions.h */,
+				8F72DBB73011C979E0760EFE7BA0A768 /* ViewController+MASAdditions.m */,
+				07B98A90E6388B2701C5E5A1757E2767 /* Support Files */,
 			);
 			name = Masonry;
 			path = Masonry;
@@ -300,23 +244,33 @@
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				641727D7EBF7D099C436C5885417E360 /* Masonry */,
+				674F7631E4B305BC866389353892D9F4 /* Masonry */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		BDFB34A12FABD70C59DCE49920774B47 /* Support Files */ = {
+		9623A7847AA891CAD4662FF09A1E4A35 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */,
-				002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */,
-				E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */,
-				025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */,
-				E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */,
-				8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */,
+				038B8F5AC564A8570327E28DB8892AAA /* NestedTableView.xcconfig */,
+				13F604C7E7443CDD538A41B5D8152A0F /* NestedTableView-dummy.m */,
+				9E5BF26B2C605E0222A2CED45A1EDD24 /* NestedTableView-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Masonry";
+			path = "Example/Pods/Target Support Files/NestedTableView";
+			sourceTree = "<group>";
+		};
+		C19E328CE33AAAFB8DF8548E87991763 /* Pods-NestedTableView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB557F6244DCDDD41F7711A71E5E9D7B /* Pods-NestedTableView_Tests-acknowledgements.markdown */,
+				446EF11B5DA0C644DCB4632695B2791E /* Pods-NestedTableView_Tests-acknowledgements.plist */,
+				E45DBE86E6092AEE1317D9E7482620DC /* Pods-NestedTableView_Tests-dummy.m */,
+				096BF59A056DE28583977E8EDC593DB2 /* Pods-NestedTableView_Tests.debug.xcconfig */,
+				75A4F7C881E4548620ED32B7AA48BA3D /* Pods-NestedTableView_Tests.release.xcconfig */,
+			);
+			name = "Pods-NestedTableView_Tests";
+			path = "Target Support Files/Pods-NestedTableView_Tests";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -324,115 +278,106 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				39AF4A81A5C0953FB2DFC44A0DFF61D7 /* Development Pods */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
-				F51505B2051AB9BE22EBFF0E73A37BB4 /* Products */,
-				2EB050708FCD139023992740589C00F5 /* Targets Support Files */,
+				4267BFD24499AD69FE962EDF7F6A92A1 /* Products */,
+				E1074129649165812614BE40CF3D75F9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E0977E31EB658C974E90B9349CBD4466 /* Support Files */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5509BE1F390641257C918096C838DBF8 /* NestedTableView.modulemap */,
-				66B6F3F6033F4392BADD9384AB1E1407 /* NestedTableView.xcconfig */,
-				2EE4E1731D2CF913B5B6CC583D26AA1A /* NestedTableView-dummy.m */,
-				ACFFB27C9B78A222E056F82D4FCEDBE1 /* NestedTableView-Info.plist */,
-				B4B13DFC1446EC91FC4619840416771E /* NestedTableView-prefix.pch */,
-				C9AC6510D48161EA1A17E02396877D82 /* NestedTableView-umbrella.h */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NestedTableView";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+		D983F13607386DA3DCC6EA67F3BC5538 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
-				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+				998068ED59226C6F9779CAF5E8D9BA3A /* LICENSE */,
+				81458E2B9FDF543A6A50EF5A89A7EA0F /* NestedTableView.podspec */,
+				687718DF472016E1F659D5B4454CC6B5 /* README.md */,
 			);
-			name = iOS;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		EDB5D48C44308F81C75B8613F22A4276 /* Pods-NestedTableView_Example */ = {
+		E1074129649165812614BE40CF3D75F9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0C5ED788F648649F3B45997C9ABE6CD5 /* Pods-NestedTableView_Example.modulemap */,
-				3615B4685F9AA9EA5929BF2803484900 /* Pods-NestedTableView_Example-acknowledgements.markdown */,
-				59C958A7570497759EC8F9FC02313360 /* Pods-NestedTableView_Example-acknowledgements.plist */,
-				609BE4A53D7F7F5B06A88B57547FF716 /* Pods-NestedTableView_Example-dummy.m */,
-				CC2917BA3F563D2FFB789A183F53E975 /* Pods-NestedTableView_Example-frameworks.sh */,
-				80FE89342BB57A77442FCB653AFC2A22 /* Pods-NestedTableView_Example-Info.plist */,
-				3EBF4121F2B6E70AAA2269547B1BB338 /* Pods-NestedTableView_Example-umbrella.h */,
-				DDA40CDE9893FB442CA7DA8BB74CD9D6 /* Pods-NestedTableView_Example.debug.xcconfig */,
-				1F4F76DDEE94871ECD0095CD9F2A01CB /* Pods-NestedTableView_Example.release.xcconfig */,
+				284F23ED5E1EB446BA35495BC4C19A23 /* Pods-NestedTableView_Example */,
+				C19E328CE33AAAFB8DF8548E87991763 /* Pods-NestedTableView_Tests */,
 			);
-			name = "Pods-NestedTableView_Example";
-			path = "Target Support Files/Pods-NestedTableView_Example";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F51505B2051AB9BE22EBFF0E73A37BB4 /* Products */ = {
+		F7E28B432819414491EF96F08C1C0DF5 /* NestedTableView */ = {
 			isa = PBXGroup;
 			children = (
-				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
-				A3AE7113DFDEEB1E70D7E0B5293C91D7 /* NestedTableView.framework */,
-				77C7E9D2D0DB7E1546BBD918791C9F8B /* Pods_NestedTableView_Example.framework */,
-				0D68E507A3FCD9568179AD15D4C128FD /* Pods_NestedTableView_Tests.framework */,
+				460892AB9D9CD052B54AE86D51964544 /* NestedBaseViewController.h */,
+				E6C7381CB978473877D7B7ECE7FCB012 /* NestedBaseViewController.m */,
+				C09BD32295C3ACAC86A814A491B72EF3 /* NestedCollectionContainerCell.h */,
+				BFD6970F311348403E3DACB535D0F792 /* NestedCollectionContainerCell.m */,
+				648338401CE8709A85CE06D616C8ED3F /* NestedTableContainerCell.h */,
+				189BA3083620CBBB3E764F44E186DFFE /* NestedTableContainerCell.m */,
+				EE7C70CCBD45ED91063C5A29B001CC7E /* NestedTableView.h */,
+				F63FB71AAF19B55E6FC12B845A0AF4D0 /* NestedTableView.m */,
+				1847ECC3594ECDDDFB9C4FCB6AF8666F /* NestedTableViewHeader.h */,
+				D983F13607386DA3DCC6EA67F3BC5538 /* Pod */,
+				9623A7847AA891CAD4662FF09A1E4A35 /* Support Files */,
 			);
-			name = Products;
+			name = NestedTableView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
+		2697A8D6B2989B073B236F7B4BF67F30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
-				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
-				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
-				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
-				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
-				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
-				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
-				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
-				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
-				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
-				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
-				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
-				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
-				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
-				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+				92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */,
+				4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */,
+				EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */,
+				9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */,
+				7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */,
+				B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */,
+				65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */,
+				42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */,
+				115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */,
+				F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */,
+				81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */,
+				C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */,
+				A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */,
+				E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8895DD5A11405495D91FD76AA558548 /* Headers */ = {
+		580F7D90DD571130DFE41BFED94B33EE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ADBA08617C39A25153368922FF0B5CA /* NestedBaseViewController.h in Headers */,
-				8F087A1EE19F0A0BC04F179590239DD2 /* NestedCollectionContainerCell.h in Headers */,
-				50B23993B47FEDF1B66580E297A29CAE /* NestedTableContainerCell.h in Headers */,
-				58C45D1E1E6A6D371733E36433177DD9 /* NestedTableView-umbrella.h in Headers */,
-				3F1B6823B764B456E1E6B05C2FB49D16 /* NestedTableView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD406E018BCC8A3B0EF9B20637D98E95 /* Headers */ = {
+		9F8D88F5C3E93BCED2A0F3865114A115 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8D1AB142A5F92461D51147E806F15CE /* Pods-NestedTableView_Tests-umbrella.h in Headers */,
+				82FAC182BBCAFF99778FC2E98D6DA48C /* NestedBaseViewController.h in Headers */,
+				0B614625D1294E7DF07BC189B55FD626 /* NestedCollectionContainerCell.h in Headers */,
+				615A0BEB9C8EA21CFFB49730198972E3 /* NestedTableContainerCell.h in Headers */,
+				8C666A3476EFB0C11C71575786230198 /* NestedTableView.h in Headers */,
+				82D26677232EBFE9B918703970BE67E7 /* NestedTableViewHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E069AB885B1EF64E892C03D01D766F4C /* Headers */ = {
+		AFBBC43884A282DCDF3D690D314B6FA2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77DABFE9A5FF6857A7FA44BD27E8ADAB /* Pods-NestedTableView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,12 +386,11 @@
 /* Begin PBXNativeTarget section */
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = 0B9F7EAACDDA564EC328F53A4AB8CF85 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
-				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
-				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
-				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
+				2697A8D6B2989B073B236F7B4BF67F30 /* Headers */,
+				8C28688BF2BD730285E2F5DE30F8C021 /* Sources */,
+				01095FBE532CF5AA0855A20BDA54BF0B /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -454,37 +398,35 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 1FFED36A657123030ABB700256D73F15 /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		7193DBA1C84AA7F035EBF73975ADBF75 /* Pods-NestedTableView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64D9C16A3F3D82AAF1026281C3DACE5E /* Build configuration list for PBXNativeTarget "Pods-NestedTableView_Example" */;
+			buildConfigurationList = FCD74A5ABB14C7FD2DB02754353010E8 /* Build configuration list for PBXNativeTarget "Pods-NestedTableView_Example" */;
 			buildPhases = (
-				E069AB885B1EF64E892C03D01D766F4C /* Headers */,
-				F82C7B09A0C0F52A47E1B7A659F0828F /* Sources */,
-				3AECB370A62F1D6B18C1E70151472056 /* Frameworks */,
-				CA1EF4A1CD4C6CB0B94AC499BF592445 /* Resources */,
+				AFBBC43884A282DCDF3D690D314B6FA2 /* Headers */,
+				07889E9B5EB563FA801B61C564C8D54D /* Sources */,
+				828A1BA2209D44DBF1277723AE317756 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AB53D73BF1CEDA6C20E9CE75D2DB123F /* PBXTargetDependency */,
-				588CC9BD45F308F8C76CEEFF6A1CC17E /* PBXTargetDependency */,
+				30546FC4C4CD2C661AD0C49A46DB53D6 /* PBXTargetDependency */,
+				67AFBD984CA70204D37E7C94953518F8 /* PBXTargetDependency */,
 			);
 			name = "Pods-NestedTableView_Example";
 			productName = "Pods-NestedTableView_Example";
-			productReference = 77C7E9D2D0DB7E1546BBD918791C9F8B /* Pods_NestedTableView_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 77C7E9D2D0DB7E1546BBD918791C9F8B /* libPods-NestedTableView_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		BCD5016987D0E7E6BF2451636EE63D22 /* NestedTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F434F204625DDAC5DFA18875683C01DB /* Build configuration list for PBXNativeTarget "NestedTableView" */;
+			buildConfigurationList = 173589EBBE24CFB999A7183360EA59F2 /* Build configuration list for PBXNativeTarget "NestedTableView" */;
 			buildPhases = (
-				A8895DD5A11405495D91FD76AA558548 /* Headers */,
-				FDBDC87DE35D1459799390A455F64C88 /* Sources */,
-				20B14EE81A92CF17B77FDA9614DA255B /* Frameworks */,
-				AC8F3123B8EF695769823F9055050890 /* Resources */,
+				9F8D88F5C3E93BCED2A0F3865114A115 /* Headers */,
+				8391B60CD934ECA4FF0DF611D2834FE0 /* Sources */,
+				CD7B12B6FBC5F42BC29A7E80DE33F554 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -492,27 +434,26 @@
 			);
 			name = NestedTableView;
 			productName = NestedTableView;
-			productReference = A3AE7113DFDEEB1E70D7E0B5293C91D7 /* NestedTableView.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = A3AE7113DFDEEB1E70D7E0B5293C91D7 /* libNestedTableView.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		DBC1846EEA709F38A6EB88AFFEF2C59A /* Pods-NestedTableView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 258EF30E94B86DA8B12D6A09EEAAC7BC /* Build configuration list for PBXNativeTarget "Pods-NestedTableView_Tests" */;
+			buildConfigurationList = 8D3939499DC375EE7EC8FCFAE7976714 /* Build configuration list for PBXNativeTarget "Pods-NestedTableView_Tests" */;
 			buildPhases = (
-				CD406E018BCC8A3B0EF9B20637D98E95 /* Headers */,
-				B9B2CE87331EF7322CA1999E1D83C821 /* Sources */,
-				44606F9CFB530F694473E0E6F84651E3 /* Frameworks */,
-				2654D5161148E589F0B71DE77C4B1577 /* Resources */,
+				580F7D90DD571130DFE41BFED94B33EE /* Headers */,
+				1A3FC483598D698251A46DCD59D7BE4E /* Sources */,
+				7ACC1BE1E1E38AA68947CFE4ACD60A19 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AD77755A52FF0DEE5CB886D1D0B119B1 /* PBXTargetDependency */,
+				AF339F2122CD15E79CCA120302DA2B14 /* PBXTargetDependency */,
 			);
 			name = "Pods-NestedTableView_Tests";
 			productName = "Pods-NestedTableView_Tests";
-			productReference = 0D68E507A3FCD9568179AD15D4C128FD /* Pods_NestedTableView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 0D68E507A3FCD9568179AD15D4C128FD /* libPods-NestedTableView_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -532,7 +473,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F51505B2051AB9BE22EBFF0E73A37BB4 /* Products */;
+			productRefGroup = 4267BFD24499AD69FE962EDF7F6A92A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -544,141 +485,216 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		2654D5161148E589F0B71DE77C4B1577 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC8F3123B8EF695769823F9055050890 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA1EF4A1CD4C6CB0B94AC499BF592445 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
+		07889E9B5EB563FA801B61C564C8D54D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
-				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
-				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
-				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
-				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
-				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
-				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
-				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
-				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
-				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
+				B23733FCA117EB1BE3338454239DA6C1 /* Pods-NestedTableView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9B2CE87331EF7322CA1999E1D83C821 /* Sources */ = {
+		1A3FC483598D698251A46DCD59D7BE4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6028752087FD395850E0A0038677A5A5 /* Pods-NestedTableView_Tests-dummy.m in Sources */,
+				ED31FF6781C8F37D7AB4BE58D1F82BE6 /* Pods-NestedTableView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F82C7B09A0C0F52A47E1B7A659F0828F /* Sources */ = {
+		8391B60CD934ECA4FF0DF611D2834FE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65A74C2E0DDB30AFFC8D153AE9216324 /* Pods-NestedTableView_Example-dummy.m in Sources */,
+				9A2CACB04AFA13A45322DA32F533F168 /* NestedBaseViewController.m in Sources */,
+				1B3E352AE8065ABC1A8CD767952F945E /* NestedCollectionContainerCell.m in Sources */,
+				8220DCFE502EE09B89B92C74DBC34BE7 /* NestedTableContainerCell.m in Sources */,
+				67B0166E17FFA9E4C75CFC38C5FE6748 /* NestedTableView-dummy.m in Sources */,
+				543119499FC2276B775BBB74FD08ECDA /* NestedTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDBDC87DE35D1459799390A455F64C88 /* Sources */ = {
+		8C28688BF2BD730285E2F5DE30F8C021 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CFE80616767133A1F6622213A893DA1 /* NestedBaseViewController.m in Sources */,
-				8F9D6A8D7235EC36F7158364DA3025E0 /* NestedCollectionContainerCell.m in Sources */,
-				D36E000A0591DCB8C97D7B6CD1D0F1D0 /* NestedTableContainerCell.m in Sources */,
-				DCBC6B28D858656BB157783A7B6ABCF4 /* NestedTableView-dummy.m in Sources */,
-				E964D37FB800F40236AF0462BB71FBE8 /* NestedTableView.m in Sources */,
-				96B7626883E773AD83CCBEBA91DC5645 /* ReplaceMe.m in Sources */,
+				63F87C318437740E8202E4D3DD0826FA /* MASCompositeConstraint.m in Sources */,
+				EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */,
+				1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */,
+				0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */,
+				D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */,
+				A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */,
+				572D05B146EAA3EF5530A0D0E34904A0 /* MASViewConstraint.m in Sources */,
+				B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */,
+				59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */,
+				C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		588CC9BD45F308F8C76CEEFF6A1CC17E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NestedTableView;
-			target = BCD5016987D0E7E6BF2451636EE63D22 /* NestedTableView */;
-			targetProxy = EE55C481293E9CB16A2C702F013FB054 /* PBXContainerItemProxy */;
-		};
-		AB53D73BF1CEDA6C20E9CE75D2DB123F /* PBXTargetDependency */ = {
+		30546FC4C4CD2C661AD0C49A46DB53D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 79F5936C116E50DF215CFF9CA0CBB958 /* PBXContainerItemProxy */;
+			targetProxy = B8731EAF0E9D37CD72BAA24FBFDE99F0 /* PBXContainerItemProxy */;
 		};
-		AD77755A52FF0DEE5CB886D1D0B119B1 /* PBXTargetDependency */ = {
+		67AFBD984CA70204D37E7C94953518F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NestedTableView;
+			target = BCD5016987D0E7E6BF2451636EE63D22 /* NestedTableView */;
+			targetProxy = 59EB82C8DDCCDAA73041ACED24E48B30 /* PBXContainerItemProxy */;
+		};
+		AF339F2122CD15E79CCA120302DA2B14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NestedTableView_Example";
 			target = 7193DBA1C84AA7F035EBF73975ADBF75 /* Pods-NestedTableView_Example */;
-			targetProxy = 4DFFACB1F606ABDC04312F24E8109492 /* PBXContainerItemProxy */;
+			targetProxy = 9A33B2B1F8D27239C333697545BE8635 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A6E12501C273EF04523036F26B9CD52 /* Debug */ = {
+		02A5FB107FC84D7654E7178361FD5102 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66B6F3F6033F4392BADD9384AB1E1407 /* NestedTableView.xcconfig */;
+			baseConfigurationReference = CEC58C662DF564AED5C45A3F2B0E0E97 /* Masonry.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NestedTableView/NestedTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NestedTableView/NestedTableView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NestedTableView/NestedTableView.modulemap";
-				PRODUCT_MODULE_NAME = NestedTableView;
-				PRODUCT_NAME = NestedTableView;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		1A8736F6B3135DB0172534E327D764C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA2FCF59015EFFCE4009D04DEC8DC75 /* Pods-NestedTableView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31103E25BC6BB8796D34928D8F5254DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC58C662DF564AED5C45A3F2B0E0E97 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FEC3E4B221DD13A97E9C889E7A43D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038B8F5AC564A8570327E28DB8892AAA /* NestedTableView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NestedTableView/NestedTableView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NestedTableView;
+				PRODUCT_NAME = NestedTableView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E6490CCE3B467698E9179668A0DE91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BAA23B3457F73621DE9E869880B36A /* Pods-NestedTableView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B6FD45D8903205709ACC31818E64996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A4F7C881E4548620ED32B7AA48BA3D /* Pods-NestedTableView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -726,7 +742,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -738,72 +754,7 @@
 			};
 			name = Release;
 		};
-		527D6664223B803E9C7307F58E3CA12A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		54088E2B1730FB6F52CA3DC27085EB9D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDA40CDE9893FB442CA7DA8BB74CD9D6 /* Pods-NestedTableView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NestedTableView_Example/Pods-NestedTableView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NestedTableView_Example/Pods-NestedTableView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -854,7 +805,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -867,178 +818,69 @@
 			};
 			name = Debug;
 		};
-		8C65F7CC9708EE0690525E4800598E8E /* Debug */ = {
+		A68F428D93C4FC9B0420440BEB779DAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
+			baseConfigurationReference = 096BF59A056DE28583977E8EDC593DB2 /* Pods-NestedTableView_Tests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		AA6F203DE04332F7F63A9EAD8C2E7D29 /* Release */ = {
+		C9B51F18A0818C19CBC9542785736F65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66B6F3F6033F4392BADD9384AB1E1407 /* NestedTableView.xcconfig */;
+			baseConfigurationReference = 038B8F5AC564A8570327E28DB8892AAA /* NestedTableView.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/NestedTableView/NestedTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NestedTableView/NestedTableView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NestedTableView/NestedTableView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = NestedTableView;
 				PRODUCT_NAME = NestedTableView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C75A8ABC3B0243E95A7BDEE954F42627 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8C4C12CCD6592AE76474F66D401C829 /* Pods-NestedTableView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NestedTableView_Tests/Pods-NestedTableView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NestedTableView_Tests/Pods-NestedTableView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D61DC864375DA67F27EB634E3256C14F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98467AA6B20C3CF581EE3253F3609972 /* Pods-NestedTableView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NestedTableView_Tests/Pods-NestedTableView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NestedTableView_Tests/Pods-NestedTableView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E24F7EED23A70711505E11DE4152A5C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F4F76DDEE94871ECD0095CD9F2A01CB /* Pods-NestedTableView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NestedTableView_Example/Pods-NestedTableView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NestedTableView_Example/Pods-NestedTableView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		258EF30E94B86DA8B12D6A09EEAAC7BC /* Build configuration list for PBXNativeTarget "Pods-NestedTableView_Tests" */ = {
+		0B9F7EAACDDA564EC328F53A4AB8CF85 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D61DC864375DA67F27EB634E3256C14F /* Debug */,
-				C75A8ABC3B0243E95A7BDEE954F42627 /* Release */,
+				02A5FB107FC84D7654E7178361FD5102 /* Debug */,
+				31103E25BC6BB8796D34928D8F5254DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173589EBBE24CFB999A7183360EA59F2 /* Build configuration list for PBXNativeTarget "NestedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEC3E4B221DD13A97E9C889E7A43D6E /* Debug */,
+				C9B51F18A0818C19CBC9542785736F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1046,35 +888,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64D9C16A3F3D82AAF1026281C3DACE5E /* Build configuration list for PBXNativeTarget "Pods-NestedTableView_Example" */ = {
+		8D3939499DC375EE7EC8FCFAE7976714 /* Build configuration list for PBXNativeTarget "Pods-NestedTableView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54088E2B1730FB6F52CA3DC27085EB9D /* Debug */,
-				E24F7EED23A70711505E11DE4152A5C4 /* Release */,
+				A68F428D93C4FC9B0420440BEB779DAB /* Debug */,
+				8B6FD45D8903205709ACC31818E64996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		FCD74A5ABB14C7FD2DB02754353010E8 /* Build configuration list for PBXNativeTarget "Pods-NestedTableView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C65F7CC9708EE0690525E4800598E8E /* Debug */,
-				527D6664223B803E9C7307F58E3CA12A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F434F204625DDAC5DFA18875683C01DB /* Build configuration list for PBXNativeTarget "NestedTableView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A6E12501C273EF04523036F26B9CD52 /* Debug */,
-				AA6F203DE04332F7F63A9EAD8C2E7D29 /* Release */,
+				4E6490CCE3B467698E9179668A0DE91A /* Debug */,
+				1A8736F6B3135DB0172534E327D764C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

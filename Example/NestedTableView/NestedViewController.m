@@ -3,7 +3,7 @@
 // Copyright (c) 2020 CrystalBlack. All rights reserved.
 //
 
-#import <Masonry/View+MASAdditions.h>
+#import <Masonry/Masonry.h>
 #import "NestedViewController.h"
 
 @interface NestedViewController () <UITableViewDataSource, UITableViewDelegate>

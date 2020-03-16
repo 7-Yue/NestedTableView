@@ -1,9 +1,10 @@
-use_frameworks!
+# use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'NestedTableView_Example' do
   pod 'NestedTableView', :path => '../'
+  # pod 'NestedTableView', :git => 'git@github.com:CrystalBlack/NestedTableView.git'
   pod 'Masonry'
   target 'NestedTableView_Tests' do
     inherit! :search_paths

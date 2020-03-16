@@ -2,12 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19e7945c-0aaa-4f86-b377-eaff1ff9b8fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/MASCompositeConstraint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/MASConstraint+Private.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/MASConstraint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/MASConstraintMaker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/MASLayoutConstraint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/MASUtilities.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/MASViewAttribute.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/MASViewConstraint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/Masonry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/NSArray+MASAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/NSArray+MASShorthandAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/NSLayoutConstraint+MASDebugAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/View+MASAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/View+MASShorthandAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/Masonry/ViewController+MASAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/NestedTableView/NestedBaseViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/NestedTableView/NestedCollectionContainerCell.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/NestedTableView/NestedTableContainerCell.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/NestedTableView/NestedTableView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Private/NestedTableView/NestedTableViewHeader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/MASCompositeConstraint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/MASConstraint+Private.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/MASConstraint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/MASConstraintMaker.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/MASLayoutConstraint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/MASUtilities.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/MASViewAttribute.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/MASViewConstraint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/Masonry.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/NSArray+MASAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/NSArray+MASShorthandAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/NSLayoutConstraint+MASDebugAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/View+MASAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/View+MASShorthandAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/Masonry/ViewController+MASAdditions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/NestedTableView/NestedBaseViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/NestedTableView/NestedCollectionContainerCell.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/NestedTableView/NestedTableContainerCell.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/NestedTableView/NestedTableView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/Headers/Public/NestedTableView/NestedTableViewHeader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/NestedTableView/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/NestedTableView/NestedTableView/Classes/NestedBaseViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/NestedTableView/NestedTableView/Classes/NestedBaseViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/NestedTableView/NestedTableView/Classes/NestedCollectionContainerCell.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/NestedTableView/NestedTableView/Classes/NestedCollectionContainerCell.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/NestedTableView/NestedTableView/Classes/NestedTableContainerCell.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/NestedTableView/NestedTableView/Classes/NestedTableContainerCell.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/NestedTableView/NestedTableView/Classes/NestedTableView.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/NestedTableView/NestedTableView/Classes/NestedTableView.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/NestedTableView/NestedTableView/Classes/ReplaceMe.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pods/NestedTableView/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableViewHeader.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NestedTableView/Classes/NestedBaseViewController.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedBaseViewController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NestedTableView.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/NestedTableView.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NestedTableView/DEMOViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/NestedTableView/DEMOViewController.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NestedTableView/NestedViewController.h" beforeDir="false" afterPath="$PROJECT_DIR$/NestedTableView/NestedViewController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NestedTableView/NestedViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/NestedTableView/NestedViewController.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/NestedTableView.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/NestedTableView.podspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Masonry/Masonry.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/NestedTableView/NestedTableView.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/NestedTableView/NestedTableView.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-NestedTableView_Example/Pods-NestedTableView_Example.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-NestedTableView_Example/Pods-NestedTableView_Example.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-NestedTableView_Example/Pods-NestedTableView_Example.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-NestedTableView_Example/Pods-NestedTableView_Example.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-NestedTableView_Tests/Pods-NestedTableView_Tests.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-NestedTableView_Tests/Pods-NestedTableView_Tests.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-NestedTableView_Tests/Pods-NestedTableView_Tests.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-NestedTableView_Tests/Pods-NestedTableView_Tests.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NestedTableView.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedTableView.podspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableContainerCell.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableContainerCell.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableContainerCell.m" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableContainerCell.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableView.h" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableView.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableView.m" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedTableView/Classes/NestedTableView.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NestedTableView/Classes/ReplaceMe.m" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +106,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="NestedTableView_Example" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Masonry" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -67,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584260219786</updated>
-      <workItem from="1584260224747" duration="15838000" />
+      <workItem from="1584260224747" duration="19729000" />
     </task>
     <servers />
   </component>
@@ -87,97 +152,113 @@
     </state>
     <state x="608" y="187" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1584357165029" />
     <state x="926" y="249" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361761728" />
-    <state width="2508" height="475" key="GridCell.Tab.0.bottom" timestamp="1584361718251">
+    <state width="2508" height="475" key="GridCell.Tab.0.bottom" timestamp="1584367665159">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.0.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718251" />
-    <state width="2508" height="475" key="GridCell.Tab.0.center" timestamp="1584361718250">
+    <state width="2508" height="475" key="GridCell.Tab.0.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665159" />
+    <state width="2508" height="475" key="GridCell.Tab.0.center" timestamp="1584367665155">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.0.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718250" />
-    <state width="2508" height="475" key="GridCell.Tab.0.left" timestamp="1584361718250">
+    <state width="2508" height="475" key="GridCell.Tab.0.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665155" />
+    <state width="2508" height="475" key="GridCell.Tab.0.left" timestamp="1584367665154">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.0.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718250" />
-    <state width="2508" height="475" key="GridCell.Tab.0.right" timestamp="1584361718251">
+    <state width="2508" height="475" key="GridCell.Tab.0.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665154" />
+    <state width="2508" height="475" key="GridCell.Tab.0.right" timestamp="1584367665157">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.0.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718251" />
-    <state width="2508" height="475" key="GridCell.Tab.1.bottom" timestamp="1584361718252">
+    <state width="2508" height="475" key="GridCell.Tab.0.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665157" />
+    <state width="2508" height="475" key="GridCell.Tab.1.bottom" timestamp="1584367670188">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.1.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718252" />
-    <state width="2508" height="475" key="GridCell.Tab.1.center" timestamp="1584361718251">
+    <state width="2508" height="475" key="GridCell.Tab.1.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367670188" />
+    <state width="2508" height="475" key="GridCell.Tab.1.center" timestamp="1584367670186">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.1.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718251" />
-    <state width="2508" height="475" key="GridCell.Tab.1.left" timestamp="1584361718251">
+    <state width="2508" height="475" key="GridCell.Tab.1.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367670186" />
+    <state width="2508" height="475" key="GridCell.Tab.1.left" timestamp="1584367670186">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.1.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718251" />
-    <state width="2508" height="475" key="GridCell.Tab.1.right" timestamp="1584361718252">
+    <state width="2508" height="475" key="GridCell.Tab.1.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367670186" />
+    <state width="2508" height="475" key="GridCell.Tab.1.right" timestamp="1584367670187">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.1.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718252" />
-    <state width="2508" height="475" key="GridCell.Tab.2.bottom" timestamp="1584361718253">
+    <state width="2508" height="475" key="GridCell.Tab.1.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367670187" />
+    <state width="2508" height="475" key="GridCell.Tab.2.bottom" timestamp="1584367665014">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.2.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718253" />
-    <state width="2508" height="475" key="GridCell.Tab.2.center" timestamp="1584361718252">
+    <state width="2508" height="475" key="GridCell.Tab.2.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665014" />
+    <state width="2508" height="475" key="GridCell.Tab.2.center" timestamp="1584367665013">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.2.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718252" />
-    <state width="2508" height="475" key="GridCell.Tab.2.left" timestamp="1584361718252">
+    <state width="2508" height="475" key="GridCell.Tab.2.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665013" />
+    <state width="2508" height="475" key="GridCell.Tab.2.left" timestamp="1584367665013">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.2.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718252" />
-    <state width="2508" height="475" key="GridCell.Tab.2.right" timestamp="1584361718252">
+    <state width="2508" height="475" key="GridCell.Tab.2.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665013" />
+    <state width="2508" height="475" key="GridCell.Tab.2.right" timestamp="1584367665014">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.2.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718252" />
-    <state width="2508" height="475" key="GridCell.Tab.3.bottom" timestamp="1584361718254">
+    <state width="2508" height="475" key="GridCell.Tab.2.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665014" />
+    <state width="2508" height="475" key="GridCell.Tab.3.bottom" timestamp="1584367665016">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.3.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718254" />
-    <state width="2508" height="475" key="GridCell.Tab.3.center" timestamp="1584361718253">
+    <state width="2508" height="475" key="GridCell.Tab.3.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665016" />
+    <state width="2508" height="475" key="GridCell.Tab.3.center" timestamp="1584367665015">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.3.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718253" />
-    <state width="2508" height="475" key="GridCell.Tab.3.left" timestamp="1584361718253">
+    <state width="2508" height="475" key="GridCell.Tab.3.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665015" />
+    <state width="2508" height="475" key="GridCell.Tab.3.left" timestamp="1584367665015">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.3.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718253" />
-    <state width="2508" height="475" key="GridCell.Tab.3.right" timestamp="1584361718253">
+    <state width="2508" height="475" key="GridCell.Tab.3.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665015" />
+    <state width="2508" height="475" key="GridCell.Tab.3.right" timestamp="1584367665016">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.3.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718253" />
-    <state width="2508" height="475" key="GridCell.Tab.4.bottom" timestamp="1584361718254">
+    <state width="2508" height="475" key="GridCell.Tab.3.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665016" />
+    <state width="2508" height="475" key="GridCell.Tab.4.bottom" timestamp="1584367665019">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.4.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718254" />
-    <state width="2508" height="475" key="GridCell.Tab.4.center" timestamp="1584361718254">
+    <state width="2508" height="475" key="GridCell.Tab.4.bottom/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665019" />
+    <state width="2508" height="475" key="GridCell.Tab.4.center" timestamp="1584367665018">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.4.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718254" />
-    <state width="2508" height="475" key="GridCell.Tab.4.left" timestamp="1584361718254">
+    <state width="2508" height="475" key="GridCell.Tab.4.center/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665018" />
+    <state width="2508" height="475" key="GridCell.Tab.4.left" timestamp="1584367665017">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.4.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718254" />
-    <state width="2508" height="475" key="GridCell.Tab.4.right" timestamp="1584361718254">
+    <state width="2508" height="475" key="GridCell.Tab.4.left/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665017" />
+    <state width="2508" height="475" key="GridCell.Tab.4.right" timestamp="1584367665018">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2508" height="475" key="GridCell.Tab.4.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584361718254" />
+    <state width="2508" height="475" key="GridCell.Tab.4.right/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584367665018" />
     <state x="463" y="330" key="com.intellij.ide.util.TipDialog" timestamp="1584260223487">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="463" y="330" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1584260223487" />
+    <state x="893" y="444" width="774" height="574" key="find.popup" timestamp="1584365384547">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="893" y="444" width="774" height="574" key="find.popup/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584365384547" />
     <state x="533" y="108" key="refactoring.ChangeSignatureDialog" timestamp="1584351462112">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="533" y="108" key="refactoring.ChangeSignatureDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1584351462112" />
-    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1584355490199">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="642" y="16" width="1277" height="1424" key="search.everywhere.popup" timestamp="1584365012490">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1584355490199" />
+    <state x="642" y="16" width="1277" height="1424" key="search.everywhere.popup/0.23.2560.1417/2560.23.1680.1027@0.23.2560.1417" timestamp="1584365012490" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/NestedTableView/DEMOViewController.m</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

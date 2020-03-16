@@ -3,8 +3,8 @@
 // Copyright (c) 2020 CrystalBlack. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <NestedTableView/NestedBaseViewController.h>
+#import <UIKit/UIKit.h>
+#import <NestedTableView/NestedTableViewHeader.h>
 
 
 @interface NestedViewController : NestedBaseViewController

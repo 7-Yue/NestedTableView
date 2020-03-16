@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "NestedTableView/Classes/**/*"
+  "source_files": "NestedTableView/**/*.{h,m}",
+  "ios": {
+    "frameworks": [
+      "Foundation",
+      "UIKit"
+    ]
+  }
 }
