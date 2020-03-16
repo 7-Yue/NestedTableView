@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - NestedTableView (0.1.0)
+
+DEPENDENCIES:
+  - Masonry
+  - NestedTableView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  NestedTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  NestedTableView: 0bb747d3cd27d4d85f43c4e21b5642385b178843
+
+PODFILE CHECKSUM: f7d49c936159d5ffda14fa4d8481fa6fdd8fb218
+
+COCOAPODS: 1.8.4

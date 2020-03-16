@@ -4,7 +4,7 @@ platform :ios, '8.0'
 
 target 'NestedTableView_Example' do
   pod 'NestedTableView', :path => '../'
-
+  pod 'Masonry'
   target 'NestedTableView_Tests' do
     inherit! :search_paths
 

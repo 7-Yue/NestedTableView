@@ -1,0 +1,22 @@
+{
+  "name": "NestedTableView",
+  "version": "0.1.0",
+  "summary": "A short description of NestedTableView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CrystalBlack/NestedTableView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CrystalBlack": "yqpzzc@163.com"
+  },
+  "source": {
+    "git": "https://github.com/CrystalBlack/NestedTableView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "NestedTableView/Classes/**/*"
+}

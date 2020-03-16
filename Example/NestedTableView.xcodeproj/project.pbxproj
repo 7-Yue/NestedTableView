@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		803B51C11A852C05D68142C1 /* NestedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B5032602493A11E627151 /* NestedViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BA78D64312A39D3D4617D91C /* Pods_NestedTableView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923672788261D81363D47D4F /* Pods_NestedTableView_Example.framework */; };
 /* End PBXBuildFile section */
@@ -38,10 +39,10 @@
 
 /* Begin PBXFileReference section */
 		030EFD4A95ADB74AB9EB2F0C /* Pods-NestedTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView_Example.debug.xcconfig"; path = "Target Support Files/Pods-NestedTableView_Example/Pods-NestedTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0CC1F372FF44823A8C82D33E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0CC1F372FF44823A8C82D33E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2D943AB610ECB7C68FAF9560 /* Pods-NestedTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView_Example.release.xcconfig"; path = "Target Support Files/Pods-NestedTableView_Example/Pods-NestedTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4D06C3C1E02DC328320EB1B8 /* Pods_NestedTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58DEB174716228228B3AA383 /* NestedTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NestedTableView.podspec; path = ../NestedTableView.podspec; sourceTree = "<group>"; };
+		58DEB174716228228B3AA383 /* NestedTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NestedTableView.podspec; path = ../NestedTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* NestedTableView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedTableView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,11 +63,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		803B5032602493A11E627151 /* NestedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestedViewController.m; sourceTree = "<group>"; };
+		803B5C102DD59943C400B61E /* NestedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestedViewController.h; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		923672788261D81363D47D4F /* Pods_NestedTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C2878AB251BE1BB39D7C52 /* Pods-NestedTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NestedTableView_Tests/Pods-NestedTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A74E031C15DE2E059F2DC220 /* Pods-NestedTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView_Tests.release.xcconfig"; path = "Target Support Files/Pods-NestedTableView_Tests/Pods-NestedTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BD5E55EE892C29E50EA9A0A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BD5E55EE892C29E50EA9A0A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +106,6 @@
 				A1C2878AB251BE1BB39D7C52 /* Pods-NestedTableView_Tests.debug.xcconfig */,
 				A74E031C15DE2E059F2DC220 /* Pods-NestedTableView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +154,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				803B5032602493A11E627151 /* NestedViewController.m */,
+				803B5C102DD59943C400B61E /* NestedViewController.h */,
 			);
 			name = "Example for NestedTableView";
 			path = NestedTableView;
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,10 +307,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NestedTableView_Example/Pods-NestedTableView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/NestedTableView/NestedTableView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NestedTableView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +374,7 @@
 				6003F59E195388D20070C39A /* DEMOAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DEMOViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				803B51C11A852C05D68142C1 /* NestedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

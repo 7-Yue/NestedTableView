@@ -1,0 +1,6 @@
+framework module NestedTableView {
+  umbrella header "NestedTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
